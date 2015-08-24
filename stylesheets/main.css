@@ -1,0 +1,414 @@
+/* line 1, ../sass/helpers/_base.scss */
+body {
+  margin: 0 auto;
+  background-image: url("../imagemin/ujKaaIATKKx7vi5kkfQn__DSC3932.jpg");
+  background-size: cover;
+  overflow-x: hidden;
+}
+
+/* line 8, ../sass/helpers/_base.scss */
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.4s ease;
+}
+/* line 12, ../sass/helpers/_base.scss */
+a:hover {
+  cursor: pointer;
+  color: #FFFFFF;
+}
+
+/* line 18, ../sass/helpers/_base.scss */
+button {
+  width: 200px;
+  height: 60px;
+  background-color: transparent;
+  font-size: 1.3em;
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  border-radius: 8px;
+  transition: all 0.4s ease;
+}
+/* line 27, ../sass/helpers/_base.scss */
+button:hover {
+  cursor: pointer;
+  background-color: #FFFFFF;
+  color: black;
+}
+/* line 32, ../sass/helpers/_base.scss */
+button:focus {
+  outline: 0;
+}
+
+/* line 1, ../sass/helpers/_body.scss */
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: #1F1E21;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.4);
+  position: relative;
+  top: 50px;
+}
+
+/* line 10, ../sass/helpers/_body.scss */
+.shadow-tint {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+/* line 16, ../sass/helpers/_body.scss */
+.banner {
+  height: 600px;
+  background-image: url("../imagemin/23H.jpg");
+  background-size: cover;
+}
+/* line 20, ../sass/helpers/_body.scss */
+.banner .content-module {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  top: 140px;
+}
+/* line 26, ../sass/helpers/_body.scss */
+.banner .content-module h1 {
+  font-size: 3em;
+  color: #FFFFFF;
+}
+
+/* line 33, ../sass/helpers/_body.scss */
+.col-section {
+  height: 350px;
+}
+/* line 35, ../sass/helpers/_body.scss */
+.col-section .col-container {
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+  top: 60px;
+}
+/* line 40, ../sass/helpers/_body.scss */
+.col-section .col-container .col {
+  width: 40%;
+  float: left;
+  margin: 0 0 30px 55px;
+  color: #FFFFFF;
+}
+/* line 45, ../sass/helpers/_body.scss */
+.col-section .col-container .col h2 {
+  font-size: 2em;
+  margin: 0;
+}
+/* line 50, ../sass/helpers/_body.scss */
+.col-section .col-container button {
+  width: 180px;
+  height: 50px;
+  font-size: 1em;
+}
+
+@media screen and (max-width: 700px) {
+  /* line 59, ../sass/helpers/_body.scss */
+  .col-section {
+    height: 600px;
+  }
+  /* line 61, ../sass/helpers/_body.scss */
+  .col-section .col-container {
+    max-width: 90%;
+    margin: 0 auto;
+    position: relative;
+    top: 60px;
+  }
+  /* line 66, ../sass/helpers/_body.scss */
+  .col-section .col-container .col {
+    width: 100%;
+    float: none;
+    margin: 0 0 30px 0;
+    color: #FFFFFF;
+  }
+  /* line 71, ../sass/helpers/_body.scss */
+  .col-section .col-container .col h2 {
+    font-size: 2em;
+    margin: 0;
+  }
+  /* line 76, ../sass/helpers/_body.scss */
+  .col-section .col-container button {
+    width: 180px;
+    height: 50px;
+    font-size: 1em;
+  }
+}
+/* line 85, ../sass/helpers/_body.scss */
+.about {
+  height: 600px;
+}
+/* line 87, ../sass/helpers/_body.scss */
+.about .content {
+  max-width: 800px;
+  margin: 0 auto;
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 624px) {
+  /* line 95, ../sass/helpers/_body.scss */
+  .about {
+    height: 1000px;
+  }
+  /* line 97, ../sass/helpers/_body.scss */
+  .about .content {
+    max-width: 90%;
+    margin: 0 auto;
+    color: #FFFFFF;
+  }
+}
+/* line 105, ../sass/helpers/_body.scss */
+.contact {
+  height: 750px;
+}
+/* line 107, ../sass/helpers/_body.scss */
+.contact h1 {
+  color: #FFFFFF;
+  text-align: center;
+}
+/* line 111, ../sass/helpers/_body.scss */
+.contact .info {
+  max-width: 600px;
+  margin: 0 auto;
+}
+/* line 115, ../sass/helpers/_body.scss */
+.contact .form-container {
+  max-width: 700px;
+  height: 500px;
+  margin: 0 auto;
+  position: relative;
+  top: 80px;
+}
+/* line 121, ../sass/helpers/_body.scss */
+.contact .form-container input[type=text] {
+  width: 300px;
+  height: 50px;
+  background: rgba(144, 144, 144, 0.15);
+  color: #FFFFFF;
+  font-size: 1.3em;
+  padding: 10px;
+  border: 0;
+  border-radius: 8px;
+  margin: 0 0 20px 30px;
+}
+/* line 132, ../sass/helpers/_body.scss */
+.contact .form-container textarea {
+  width: 633px;
+  background: rgba(144, 144, 144, 0.15);
+  color: #FFFFFF;
+  font-size: 1.3em;
+  padding: 10px;
+  border: 0;
+  border-radius: 8px;
+  margin: 0 0 0 30px;
+  resize: none;
+}
+/* line 143, ../sass/helpers/_body.scss */
+.contact .form-container input:focus, .contact .form-container textarea:focus {
+  outline: none;
+  border-color: #9ecaed;
+  box-shadow: 0 0 8px #9ecaed;
+}
+/* line 148, ../sass/helpers/_body.scss */
+.contact .form-container button {
+  position: relative;
+  top: 30px;
+  left: 30px;
+}
+/* line 153, ../sass/helpers/_body.scss */
+.contact .form-container ::-webkit-input-placeholder {
+  font-size: 15px;
+  line-height: 28px;
+}
+
+@media screen and (max-width: 670px) {
+  /* line 161, ../sass/helpers/_body.scss */
+  .contact {
+    height: 850px;
+  }
+  /* line 163, ../sass/helpers/_body.scss */
+  .contact .info {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  /* line 167, ../sass/helpers/_body.scss */
+  .contact .form-container {
+    max-width: 90%;
+    height: 500px;
+    margin: 0 auto;
+    position: relative;
+    top: 80px;
+  }
+  /* line 173, ../sass/helpers/_body.scss */
+  .contact .form-container input[type=text] {
+    width: 300px;
+    height: 50px;
+    background: rgba(144, 144, 144, 0.15);
+    color: #FFFFFF;
+    font-size: 1.3em;
+    padding: 10px;
+    border: 0;
+    border-radius: 8px;
+    margin: 0 0 20px 30px;
+  }
+  /* line 184, ../sass/helpers/_body.scss */
+  .contact .form-container textarea {
+    width: 300px;
+    background: rgba(144, 144, 144, 0.15);
+    color: #FFFFFF;
+    font-size: 1.3em;
+    padding: 10px;
+    border: 0;
+    border-radius: 8px;
+    margin: 0 0 0 30px;
+    resize: none;
+  }
+  /* line 195, ../sass/helpers/_body.scss */
+  .contact .form-container input:focus, .contact .form-container textarea:focus {
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 8px #9ecaed;
+  }
+  /* line 200, ../sass/helpers/_body.scss */
+  .contact .form-container button {
+    position: relative;
+    top: 30px;
+    left: 30px;
+  }
+  /* line 205, ../sass/helpers/_body.scss */
+  .contact .form-container ::-webkit-input-placeholder {
+    font-size: 15px;
+    line-height: 28px;
+  }
+}
+/* line 213, ../sass/helpers/_body.scss */
+.adjust {
+  margin-top: 40px;
+}
+
+@media screen and (max-width: 600px) {
+  /* line 218, ../sass/helpers/_body.scss */
+  .adjust {
+    margin-top: 100px;
+  }
+}
+/* line 223, ../sass/helpers/_body.scss */
+footer {
+  width: 70%;
+  height: 10%;
+  margin: 0 auto;
+  text-align: center;
+  color: #FFFFFF;
+  border-top: 1px solid #757575;
+}
+
+/* line 1, ../sass/helpers/_nav.scss */
+header {
+  height: 450px;
+  position: relative;
+}
+/* line 4, ../sass/helpers/_nav.scss */
+header .title {
+  text-align: center;
+  position: relative;
+  top: 100px;
+}
+/* line 8, ../sass/helpers/_nav.scss */
+header .title h1 {
+  color: #FFFFFF;
+  font-size: 4em;
+}
+/* line 12, ../sass/helpers/_nav.scss */
+header .title h2 {
+  color: #757575;
+}
+
+/* line 18, ../sass/helpers/_nav.scss */
+.social {
+  width: 300px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+/* line 23, ../sass/helpers/_nav.scss */
+.social img {
+  width: 50px;
+  transition: all 0.4s ease;
+}
+/* line 26, ../sass/helpers/_nav.scss */
+.social img:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+/* line 33, ../sass/helpers/_nav.scss */
+hr {
+  width: 500px;
+  height: 1px;
+  margin: 0 auto;
+  background-color: #757575;
+  border: 0;
+}
+
+/* line 41, ../sass/helpers/_nav.scss */
+nav ul {
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+}
+
+/* line 48, ../sass/helpers/_nav.scss */
+.li-container {
+  max-width: 450px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+/* line 54, ../sass/helpers/_nav.scss */
+nav ul li {
+  width: 115px;
+  display: inline-block;
+  text-align: center;
+  font-size: 1.5em;
+  color: #757575;
+  border-right: 1px solid #757575;
+  position: relative;
+  top: 38px;
+}
+
+@media screen and (max-width: 450px) {
+  /* line 66, ../sass/helpers/_nav.scss */
+  nav ul li {
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+    font-size: 1.5em;
+    color: #757575;
+    border-right: 1px solid #757575;
+    position: relative;
+    top: 38px;
+  }
+}
+/* line 78, ../sass/helpers/_nav.scss */
+li:first-child {
+  border-left: 1px solid #757575;
+}
+
+@font-face {
+  font-family: 'Ubuntu-L';
+  src: url("../fonts/Ubuntu-L.ttf");
+}
+/* line 6, ../sass/helpers/_typography.scss */
+h1, h2, h3, p, li {
+  font-family: 'Ubuntu-L';
+}
+
+/* line 10, ../sass/helpers/_typography.scss */
+p {
+  color: #FFFFFF;
+}
